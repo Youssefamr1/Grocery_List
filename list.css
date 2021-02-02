@@ -1,0 +1,73 @@
+body{
+    background: rgb(104, 102, 102);
+    text-align: center;
+}
+h4{position: relative;
+    color: cornflowerblue;
+    font-size: 20px;
+top: -15px;}
+h3{position: relative;
+    color: lightgrey;
+top: -35px;}
+
+.form1{
+
+padding: 2em;
+margin: 1em;
+border-radius: 1em;
+border-style: solid ;
+border-width: 2px;
+background-color: rgba(49, 95, 148, 0.884);
+
+}
+.form2{
+margin: 1em;
+border-style: solid;
+border-width: 2px;
+border-radius: 1em;
+background-color: rgba(236, 240, 243, 0.781);
+}
+
+input[type="text"]{
+    margin: 10px;
+    position: relative;
+    top: -10px;
+    border-style: solid;
+    border-color: peru;
+    border-width: 4px;
+    height: 20px;
+    width: 100%;
+    background-color: unset;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    
+    }
+    input[type="submit"]{margin: 10px;
+    width: 100%;
+    background-color: unset;
+    height: 30px;
+    border-radius: 10px;
+    color:  rgba(236, 240, 243, 0.781);
+    font-size: 15px;
+    border-color: rgba(236, 240, 243, 0.781) ;
+    }
+    input[type="submit"]:hover{
+        
+        background-color:rgba(10, 60, 117, 0.884);
+        cursor: pointer;
+    }
+#clear{
+    margin: 8%;
+    position: relative;
+    right: 8%;
+    color: black;
+    border-color:  rgba(49, 95, 148, 0.884);
+    top: 30px;
+}
+.h2{
+    margin: 2em;
+}
+.h1{
+    margin: 1em;
+}
